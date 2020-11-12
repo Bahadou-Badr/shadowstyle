@@ -8,14 +8,14 @@ Get perfect shadows every time for the non-designer.
 
 Then...
 
-...
+```
 import { shadowstyle } from 'shadowstyle';
 
 shadowstyle({
     style_type: 'soft',
     padding: false
 });
-...
+```
 
 ## Options
 
