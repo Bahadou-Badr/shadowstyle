@@ -1,4 +1,4 @@
-function shadowstyle(options){
+function shadowstyley(options){
     let images = document.querySelectorAll('.stylesite')
 
     if(options.style_type === 'hard'){
@@ -16,4 +16,4 @@ function shadowstyle(options){
         }
     })
 }
-module.exports.shadowstyle = shadowstyle;
+module.exports.shadowstyley = shadowstyley;
