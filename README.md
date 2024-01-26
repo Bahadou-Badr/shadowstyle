@@ -4,7 +4,7 @@ Get perfect shadows every time for the non-designer.
 
 # Installation
 
-`npm i shadowstyle --save`
+`npm i shadowstyley --save`
 
 Html file
 
@@ -20,9 +20,9 @@ Befor ```</body>```
 ```
 js-file.js
 ```javascript
-import { shadowstyle } from 'shadowstyle';
+import { shadowstyley } from 'shadowstyley';
 
-shadowstyle({
+shadowstyley({
     style_type: 'soft',
     padding: false
 });
@@ -30,7 +30,7 @@ shadowstyle({
 
 ## Options
 
-shadowstyle supports 2 options both of which are optional :
+shadowstyley supports 2 options both of which are optional :
 
 * *style_type* - _hard / soft_ (Defaults to sort)
 * *padding* - _boolean_ (Defaults to false)
